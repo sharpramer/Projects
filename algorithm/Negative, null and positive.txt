@@ -1,0 +1,21 @@
+Vars: x
+
+START:
+
+	Print: "Enter a number"
+	
+	Read: x
+
+	If x > 0
+		
+		Print: "The number is positive"
+	
+	Else:
+
+		Print "The number is negative"
+
+	If x = 0
+
+		Print "The number is null"
+
+END!

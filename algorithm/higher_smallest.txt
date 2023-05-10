@@ -1,0 +1,21 @@
+Vars: x, y;
+
+Start: 
+
+    Print: "Enter a number".
+
+    Read x.
+
+    Print: "Enter another number".
+
+    Read y.
+
+    If x > y:
+
+        Print "The higher number is" x.
+
+    Else: 
+
+        Escrever "The smallest number is" y.
+
+END

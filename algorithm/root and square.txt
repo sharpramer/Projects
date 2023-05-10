@@ -1,0 +1,17 @@
+Vars: num, root, square.
+
+START
+
+    Print: "Enter a number"
+
+    Read(num)
+
+    If num > 0:
+
+        Calc root = root num.
+
+    Else:
+
+    Calc square = num*num.
+
+END
